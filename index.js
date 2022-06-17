@@ -37,4 +37,23 @@
 // i++;
 // }
 
-// 3.
+//Factorial of a number
+// for(let i = 1; i <= 5; i++) {
+//     fac *= i;
+// }
+// console.log(fac);
+
+for(let i = 1; i <=100; i++){
+    if(i%3==0){
+        console.log("Hello");
+    }
+    else if(i%5==0){
+        console.log("World");
+    }
+    else if(i%15==0){
+        console.log("HelloWorld");
+    }
+    else{
+        console.log(i);
+    }
+}  
